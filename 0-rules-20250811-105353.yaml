@@ -1,0 +1,7482 @@
+- ruleId: default-layer2-rule
+  name: Default Layer2 Rule
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: default-layer2-rule
+    name: Default Layer2 Rule
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: default-layer2-rule
+    name: Default Layer2 Rule
+- ruleId: blank
+  name: blank
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 21
+    domains: []
+    objectId: blank
+    name: blank
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 21
+    domains: []
+    objectId: blank
+    name: blank
+- ruleId: blank
+  name: blank
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 21
+    domains: []
+    objectId: blank
+    name: blank
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 21
+    domains: []
+    objectId: blank
+    name: blank
+- ruleId: blank
+  name: blank
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 21
+    domains: []
+    objectId: blank
+    name: blank
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 21
+    domains: []
+    objectId: blank
+    name: blank
+- ruleId: TestingPublish
+  name: Testing Publish
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: TestingPublish
+    name: Testing Publish
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: TestingPublish
+    name: Testing Publish
+- ruleId: blank
+  name: blank
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 21
+    domains: []
+    objectId: blank
+    name: blank
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 21
+    domains: []
+    objectId: blank
+    name: blank
+- ruleId: 1
+  name: 1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 434
+    domains:
+      - '*.aadrm.com'
+      - '*.quicksuper.caresuper.com.au'
+    objectId: 1
+    name: 1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 434
+    domains:
+      - '*.aadrm.com'
+      - '*.quicksuper.caresuper.com.au'
+    objectId: 1
+    name: 1
+- ruleId: 2
+  name: 2
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 67
+    action: Deny
+    domains: []
+    objectId: 2
+    name: 2
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 67
+    action: Deny
+    domains: []
+    objectId: 2
+    name: 2
+- ruleId: 1
+  name: 1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 434
+    domains:
+      - '*.aadrm.com'
+      - '*.quicksuper.caresuper.com.au'
+    objectId: 1
+    name: 1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 434
+    domains:
+      - '*.aadrm.com'
+      - '*.quicksuper.caresuper.com.au'
+    objectId: 1
+    name: 1
+- ruleId: 2
+  name: 2
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 67
+    action: Deny
+    domains: []
+    objectId: 2
+    name: 2
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 67
+    action: Deny
+    domains: []
+    objectId: 2
+    name: 2
+- ruleId: dns-53-20200514-BT
+  name: dns-53-20200514-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: dns-53-20200514-BT
+    name: dns-53-20200514-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: dns-53-20200514-BT
+    name: dns-53-20200514-BT
+- ruleId: tcp-1434-20230607-CT
+  name: tcp-1434-20230607-CT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 19919
+      - 1434
+    action: Deny
+    domains: []
+    objectId: tcp-1434-20230607-CT
+    name: tcp-1434-20230607-CT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 19919
+      - 1434
+    action: Deny
+    domains: []
+    objectId: tcp-1434-20230607-CT
+    name: tcp-1434-20230607-CT
+- ruleId: tcp-20230613-MM
+  name: tcp-20230613-MM
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 445
+      - 2049
+      - 635
+      - 4045-4049
+      - 4046
+      - 111
+    action: Deny
+    domains: []
+    objectId: tcp-20230613-MM
+    name: tcp-20230613-MM
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 445
+      - 2049
+      - 635
+      - 4045-4049
+      - 4046
+      - 111
+    action: Deny
+    domains: []
+    objectId: tcp-20230613-MM
+    name: tcp-20230613-MM
+- ruleId: URLFilteringOutbound-1
+  name: URL Filtering Outbound-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: URLFilteringOutbound-1
+    name: URL Filtering Outbound-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: URLFilteringOutbound-1
+    name: URL Filtering Outbound-1
+- ruleId: ssh-opdw01-20230526-CT
+  name: ssh-opdw01-20230526-CT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 3690
+      - 22
+    action: Deny
+    domains: []
+    objectId: ssh-opdw01-20230526-CT
+    name: ssh-opdw01-20230526-CT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 3690
+      - 22
+    action: Deny
+    domains: []
+    objectId: ssh-opdw01-20230526-CT
+    name: ssh-opdw01-20230526-CT
+- ruleId: ssl-opdw01-20230526-CT
+  name: ssl-opdw01-20230526-CT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-opdw01-20230526-CT
+    name: ssl-opdw01-20230526-CT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-opdw01-20230526-CT
+    name: ssl-opdw01-20230526-CT
+- ruleId: dhcp-67-20200514-BT
+  name: dhcp-67-20200514-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 67
+    domains: []
+    objectId: dhcp-67-20200514-BT
+    name: dhcp-67-20200514-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 67
+    domains: []
+    objectId: dhcp-67-20200514-BT
+    name: dhcp-67-20200514-BT
+- ruleId: ssl-exasol-20230419-CT
+  name: ssl-exasol-20230419-CT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-exasol-20230419-CT
+    name: ssl-exasol-20230419-CT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-exasol-20230419-CT
+    name: ssl-exasol-20230419-CT
+- ruleId: ssl-443-20200514-BT
+  name: ssl-443-20200514-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-443-20200514-BT
+    name: ssl-443-20200514-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-443-20200514-BT
+    name: ssl-443-20200514-BT
+- ruleId: ping-20200514-BT
+  name: ping-20200514-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - ICMPv6
+      - ICMPv4
+    ports: []
+    domains: []
+    objectId: ping-20200514-BT
+    name: ping-20200514-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - ICMPv6
+      - ICMPv4
+    ports: []
+    domains: []
+    objectId: ping-20200514-BT
+    name: ping-20200514-BT
+- ruleId: TEMP-CORE-BB
+  name: TEMP-CORE-BB
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: TEMP-CORE-BB
+    name: TEMP-CORE-BB
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: TEMP-CORE-BB
+    name: TEMP-CORE-BB
+- ruleId: deny-20200514-BT
+  name: deny-20200514-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: deny-20200514-BT
+    name: deny-20200514-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: deny-20200514-BT
+    name: deny-20200514-BT
+- ruleId: SMBv1-blocking-wannacry-1
+  name: SMBv1-blocking-wannacry-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: SMBv1-blocking-wannacry-1
+    name: SMBv1-blocking-wannacry-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: SMBv1-blocking-wannacry-1
+    name: SMBv1-blocking-wannacry-1
+- ruleId: SMBv1-blocking-wannacry-2
+  name: SMBv1-blocking-wannacry-2
+  workloadRule:
+    source: {}
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: SMBv1-blocking-wannacry-2
+    name: SMBv1-blocking-wannacry-2
+  edgeRule:
+    source: {}
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: SMBv1-blocking-wannacry-2
+    name: SMBv1-blocking-wannacry-2
+- ruleId: queens-ransomware-20200504-BT
+  name: queens-ransomware-20200504-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: queens-ransomware-20200504-BT
+    name: queens-ransomware-20200504-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: queens-ransomware-20200504-BT
+    name: queens-ransomware-20200504-BT
+- ruleId: ma-20171218-BT2
+  name: ma-20171218-BT2
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ma-20171218-BT2
+    name: ma-20171218-BT2
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ma-20171218-BT2
+    name: ma-20171218-BT2
+- ruleId: jg-temp-tftp
+  name: jg-temp-tftp
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: jg-temp-tftp
+    name: jg-temp-tftp
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: jg-temp-tftp
+    name: jg-temp-tftp
+- ruleId: pop-imap-20091018-RS
+  name: pop-imap-20091018-RS
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 993
+      - 995
+    domains: []
+    objectId: pop-imap-20091018-RS
+    name: pop-imap-20091018-RS
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 993
+      - 995
+    domains: []
+    objectId: pop-imap-20091018-RS
+    name: pop-imap-20091018-RS
+- ruleId: jira-o365-14022019-JL-1
+  name: jira-o365-14022019-JL-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+      - ICMPv6
+      - ICMPv4
+    ports: []
+    domains:
+      - outlook.office365.com
+    objectId: jira-o365-14022019-JL-1
+    name: jira-o365-14022019-JL-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+      - ICMPv6
+      - ICMPv4
+    ports: []
+    domains:
+      - outlook.office365.com
+    objectId: jira-o365-14022019-JL-1
+    name: jira-o365-14022019-JL-1
+- ruleId: ob-fres-srv-core-20230203-DW-1
+  name: ob-fres-srv-core-20230203-DW-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ob-fres-srv-core-20230203-DW-1
+    name: ob-fres-srv-core-20230203-DW-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ob-fres-srv-core-20230203-DW-1
+    name: ob-fres-srv-core-20230203-DW-1
+- ruleId: ib-fres-srv-core-20230203-DW-1
+  name: ib-fres-srv-core-20230203-DW-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ib-fres-srv-core-20230203-DW-1
+    name: ib-fres-srv-core-20230203-DW-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ib-fres-srv-core-20230203-DW-1
+    name: ib-fres-srv-core-20230203-DW-1
+- ruleId: ob-fres-sapix-10-20230203-DW-1
+  name: ob-fres-sapix-10-20230203-DW-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ob-fres-sapix-10-20230203-DW-1
+    name: ob-fres-sapix-10-20230203-DW-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ob-fres-sapix-10-20230203-DW-1
+    name: ob-fres-sapix-10-20230203-DW-1
+- ruleId: ib-fres-sapix-10-20230203-DW-1
+  name: ib-fres-sapix-10-20230203-DW-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ib-fres-sapix-10-20230203-DW-1
+    name: ib-fres-sapix-10-20230203-DW-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ib-fres-sapix-10-20230203-DW-1
+    name: ib-fres-sapix-10-20230203-DW-1
+- ruleId: ob-citrix-3314-20230203-DW-1
+  name: ob-citrix-3314-20230203-DW-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ob-citrix-3314-20230203-DW-1
+    name: ob-citrix-3314-20230203-DW-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ob-citrix-3314-20230203-DW-1
+    name: ob-citrix-3314-20230203-DW-1
+- ruleId: ib-citrix-3314-20230203-DW-1
+  name: ib-citrix-3314-20230203-DW-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ib-citrix-3314-20230203-DW-1
+    name: ib-citrix-3314-20230203-DW-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ib-citrix-3314-20230203-DW-1
+    name: ib-citrix-3314-20230203-DW-1
+- ruleId: ob-o365-20230203-DW-1
+  name: ob-o365-20230203-DW-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ob-o365-20230203-DW-1
+    name: ob-o365-20230203-DW-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ob-o365-20230203-DW-1
+    name: ob-o365-20230203-DW-1
+- ruleId: ib-o365-20230203-DW-1
+  name: ib-o365-20230203-DW-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ib-o365-20230203-DW-1
+    name: ib-o365-20230203-DW-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ib-o365-20230203-DW-1
+    name: ib-o365-20230203-DW-1
+- ruleId: ExNet-SVA-JL-1
+  name: ExNet-SVA-JL-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ExNet-SVA-JL-1
+    name: ExNet-SVA-JL-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ExNet-SVA-JL-1
+    name: ExNet-SVA-JL-1
+- ruleId: ma-20171218-BT
+  name: ma-20171218-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ma-20171218-BT
+    name: ma-20171218-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ma-20171218-BT
+    name: ma-20171218-BT
+- ruleId: panorama-3978-20180426-BT
+  name: panorama-3978-20180426-BT
+  workloadRule:
+    source: {}
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 3978
+    domains: []
+    objectId: panorama-3978-20180426-BT
+    name: panorama-3978-20180426-BT
+  edgeRule:
+    source: {}
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 3978
+    domains: []
+    objectId: panorama-3978-20180426-BT
+    name: panorama-3978-20180426-BT
+- ruleId: userid-5007-20200617-BT
+  name: userid-5007-20200617-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 5007
+    domains: []
+    objectId: userid-5007-20200617-BT
+    name: userid-5007-20200617-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 5007
+    domains: []
+    objectId: userid-5007-20200617-BT
+    name: userid-5007-20200617-BT
+- ruleId: wildfire-443-20200702-BT
+  name: wildfire-443-20200702-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 10443
+    domains: []
+    objectId: wildfire-443-20200702-BT
+    name: wildfire-443-20200702-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 10443
+    domains: []
+    objectId: wildfire-443-20200702-BT
+    name: wildfire-443-20200702-BT
+- ruleId: ma-20141126-BT
+  name: ma-20141126-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ma-20141126-BT
+    name: ma-20141126-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ma-20141126-BT
+    name: ma-20141126-BT
+- ruleId: ma-20190702-JL
+  name: ma-20190702-JL
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ma-20190702-JL
+    name: ma-20190702-JL
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ma-20190702-JL
+    name: ma-20190702-JL
+- ruleId: polycom-to-clariti-manager-20230616-PM
+  name: polycom-to-clariti-manager-20230616-PM
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 389
+      - 443
+      - 3601
+      - 5222
+    domains: []
+    objectId: polycom-to-clariti-manager-20230616-PM
+    name: polycom-to-clariti-manager-20230616-PM
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 389
+      - 443
+      - 3601
+      - 5222
+    domains: []
+    objectId: polycom-to-clariti-manager-20230616-PM
+    name: polycom-to-clariti-manager-20230616-PM
+- ruleId: clariti-manager-to-polycom-20230616-PM
+  name: clariti-manager-to-polycom-20230616-PM
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 443
+      - 80
+    domains: []
+    objectId: clariti-manager-to-polycom-20230616-PM
+    name: clariti-manager-to-polycom-20230616-PM
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 443
+      - 80
+    domains: []
+    objectId: clariti-manager-to-polycom-20230616-PM
+    name: clariti-manager-to-polycom-20230616-PM
+- ruleId: poly-dma-to-polycom-20230616-PM
+  name: poly-dma-to-polycom-20230616-PM
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 1719
+      - 1718
+      - 13001-23000
+      - 5061
+      - 5060
+      - 20000-61000
+      - 1720
+    domains: []
+    objectId: poly-dma-to-polycom-20230616-PM
+    name: poly-dma-to-polycom-20230616-PM
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 1719
+      - 1718
+      - 13001-23000
+      - 5061
+      - 5060
+      - 20000-61000
+      - 1720
+    domains: []
+    objectId: poly-dma-to-polycom-20230616-PM
+    name: poly-dma-to-polycom-20230616-PM
+- ruleId: polycom-to-poly-dma-20230616-PM
+  name: polycom-to-poly-dma-20230616-PM
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 1719
+      - 5061
+      - 5060
+      - 20000-61000
+      - 1720
+    domains: []
+    objectId: polycom-to-poly-dma-20230616-PM
+    name: polycom-to-poly-dma-20230616-PM
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 1719
+      - 5061
+      - 5060
+      - 20000-61000
+      - 1720
+    domains: []
+    objectId: polycom-to-poly-dma-20230616-PM
+    name: polycom-to-poly-dma-20230616-PM
+- ruleId: poly-workflow-to-polycom-20230616-PM
+  name: poly-workflow-to-polycom-20230616-PM
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 443
+      - 9051
+      - 80
+      - 8081
+    domains: []
+    objectId: poly-workflow-to-polycom-20230616-PM
+    name: poly-workflow-to-polycom-20230616-PM
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 443
+      - 9051
+      - 80
+      - 8081
+    domains: []
+    objectId: poly-workflow-to-polycom-20230616-PM
+    name: poly-workflow-to-polycom-20230616-PM
+- ruleId: polycom-to-poly-workflow-20230616-PM
+  name: polycom-to-poly-workflow-20230616-PM
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 443
+    domains: []
+    objectId: polycom-to-poly-workflow-20230616-PM
+    name: polycom-to-poly-workflow-20230616-PM
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 443
+    domains: []
+    objectId: polycom-to-poly-workflow-20230616-PM
+    name: polycom-to-poly-workflow-20230616-PM
+- ruleId: Citrix-Adminnetwork-3319-JL
+  name: Citrix-Adminnetwork-3319-JL
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 17988
+      - 17990
+      - 137
+    domains: []
+    objectId: Citrix-Adminnetwork-3319-JL
+    name: Citrix-Adminnetwork-3319-JL
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 17988
+      - 17990
+      - 137
+    domains: []
+    objectId: Citrix-Adminnetwork-3319-JL
+    name: Citrix-Adminnetwork-3319-JL
+- ruleId: Citrix-Adminnetwork-3319-JL-2
+  name: Citrix-Adminnetwork-3319-JL-2
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 8001
+      - 5480
+      - 10888
+      - 49152-65535
+      - 8443
+      - 636
+      - 44300
+      - 10990
+      - 9000
+      - 8080
+      - 10123
+    domains: []
+    objectId: Citrix-Adminnetwork-3319-JL-2
+    name: Citrix-Adminnetwork-3319-JL-2
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 8001
+      - 5480
+      - 10888
+      - 49152-65535
+      - 8443
+      - 636
+      - 44300
+      - 10990
+      - 9000
+      - 8080
+      - 10123
+    domains: []
+    objectId: Citrix-Adminnetwork-3319-JL-2
+    name: Citrix-Adminnetwork-3319-JL-2
+- ruleId: Citrix-Adminnetwork-3319-JL-3
+  name: Citrix-Adminnetwork-3319-JL-3
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 2598
+    domains: []
+    objectId: Citrix-Adminnetwork-3319-JL-3
+    name: Citrix-Adminnetwork-3319-JL-3
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 2598
+    domains: []
+    objectId: Citrix-Adminnetwork-3319-JL-3
+    name: Citrix-Adminnetwork-3319-JL-3
+- ruleId: test-vnet-20230503-OA
+  name: test-vnet-20230503-OA
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 17988
+      - 17990
+      - 5985
+    domains: []
+    objectId: test-vnet-20230503-OA
+    name: test-vnet-20230503-OA
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 17988
+      - 17990
+      - 5985
+    domains: []
+    objectId: test-vnet-20230503-OA
+    name: test-vnet-20230503-OA
+- ruleId: iz20-cyberark-20200303JL2
+  name: iz20-cyberark-20200303JL2
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 22
+    domains: []
+    objectId: iz20-cyberark-20200303JL2
+    name: iz20-cyberark-20200303JL2
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 22
+    domains: []
+    objectId: iz20-cyberark-20200303JL2
+    name: iz20-cyberark-20200303JL2
+- ruleId: ssh-cyberak-20210325-RS
+  name: ssh-cyberak-20210325-RS
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 22
+    domains: []
+    objectId: ssh-cyberak-20210325-RS
+    name: ssh-cyberak-20210325-RS
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 22
+    domains: []
+    objectId: ssh-cyberak-20210325-RS
+    name: ssh-cyberak-20210325-RS
+- ruleId: rdp-ssh-20201201-RS
+  name: rdp-ssh-20201201-RS
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: rdp-ssh-20201201-RS
+    name: rdp-ssh-20201201-RS
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: rdp-ssh-20201201-RS
+    name: rdp-ssh-20201201-RS
+- ruleId: ms-139-20220701-BT
+  name: ms-139-20220701-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 445
+      - 139
+      - 49152-65535
+    domains: []
+    objectId: ms-139-20220701-BT
+    name: ms-139-20220701-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 445
+      - 139
+      - 49152-65535
+    domains: []
+    objectId: ms-139-20220701-BT
+    name: ms-139-20220701-BT
+- ruleId: https-20201201-RS
+  name: https-20201201-RS
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: https-20201201-RS
+    name: https-20201201-RS
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: https-20201201-RS
+    name: https-20201201-RS
+- ruleId: rdp-3389-20220701
+  name: rdp-3389-20220701
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: rdp-3389-20220701
+    name: rdp-3389-20220701
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: rdp-3389-20220701
+    name: rdp-3389-20220701
+- ruleId: ma-20100311-BT1a
+  name: ma-20100311-BT1a
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 1040
+      - 12489
+    domains: []
+    objectId: ma-20100311-BT1a
+    name: ma-20100311-BT1a
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 1040
+      - 12489
+    domains: []
+    objectId: ma-20100311-BT1a
+    name: ma-20100311-BT1a
+- ruleId: ma-20100311-BT1a-1
+  name: ma-20100311-BT1a-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 1040
+      - 12489
+    domains: []
+    objectId: ma-20100311-BT1a-1
+    name: ma-20100311-BT1a-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 1040
+      - 12489
+    domains: []
+    objectId: ma-20100311-BT1a-1
+    name: ma-20100311-BT1a-1
+- ruleId: dm-20160511-BT1
+  name: dm-20160511-BT1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: dm-20160511-BT1
+    name: dm-20160511-BT1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: dm-20160511-BT1
+    name: dm-20160511-BT1
+- ruleId: dm-20160511-BT2
+  name: dm-20160511-BT2
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 5222
+    domains: []
+    objectId: dm-20160511-BT2
+    name: dm-20160511-BT2
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 5222
+    domains: []
+    objectId: dm-20160511-BT2
+    name: dm-20160511-BT2
+- ruleId: mui-20100310-BT3
+  name: mui-20100310-BT3
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: mui-20100310-BT3
+    name: mui-20100310-BT3
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: mui-20100310-BT3
+    name: mui-20100310-BT3
+- ruleId: muo-20141126-BT1
+  name: muo-20141126-BT1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: muo-20141126-BT1
+    name: muo-20141126-BT1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: muo-20141126-BT1
+    name: muo-20141126-BT1
+- ruleId: ping-20180119-BT
+  name: ping-20180119-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ping-20180119-BT
+    name: ping-20180119-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ping-20180119-BT
+    name: ping-20180119-BT
+- ruleId: muo-20141202-BT
+  name: muo-20141202-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: muo-20141202-BT
+    name: muo-20141202-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: muo-20141202-BT
+    name: muo-20141202-BT
+- ruleId: ping-20180104-BT
+  name: ping-20180104-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ping-20180104-BT
+    name: ping-20180104-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ping-20180104-BT
+    name: ping-20180104-BT
+- ruleId: icmp-20151026-NW
+  name: icmp-20151026-NW
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20151026-NW
+    name: icmp-20151026-NW
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20151026-NW
+    name: icmp-20151026-NW
+- ruleId: icmp-20220520-DW
+  name: icmp-20220520-DW
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - ICMPv6
+      - ICMPv4
+    ports: []
+    domains: []
+    objectId: icmp-20220520-DW
+    name: icmp-20220520-DW
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - ICMPv6
+      - ICMPv4
+    ports: []
+    domains: []
+    objectId: icmp-20220520-DW
+    name: icmp-20220520-DW
+- ruleId: cloudamize-20220520-DW
+  name: cloudamize-20220520-DW
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 1024-65535
+      - 22
+      - 135
+    domains: []
+    objectId: cloudamize-20220520-DW
+    name: cloudamize-20220520-DW
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 1024-65535
+      - 22
+      - 135
+    domains: []
+    objectId: cloudamize-20220520-DW
+    name: cloudamize-20220520-DW
+- ruleId: cloudamize-20220520-DW-1
+  name: cloudamize-20220520-DW-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 445
+    domains: []
+    objectId: cloudamize-20220520-DW-1
+    name: cloudamize-20220520-DW-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 445
+    domains: []
+    objectId: cloudamize-20220520-DW-1
+    name: cloudamize-20220520-DW-1
+- ruleId: dm-20151112-BT1
+  name: dm-20151112-BT1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: dm-20151112-BT1
+    name: dm-20151112-BT1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: dm-20151112-BT1
+    name: dm-20151112-BT1
+- ruleId: dm-20200922-RS
+  name: dm-20200922-RS
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - ICMPv6
+      - ICMPv4
+    ports: []
+    domains: []
+    objectId: dm-20200922-RS
+    name: dm-20200922-RS
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - ICMPv6
+      - ICMPv4
+    ports: []
+    domains: []
+    objectId: dm-20200922-RS
+    name: dm-20200922-RS
+- ruleId: vmware-443-20220822-KT
+  name: vmware-443-20220822-KT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: vmware-443-20220822-KT
+    name: vmware-443-20220822-KT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: vmware-443-20220822-KT
+    name: vmware-443-20220822-KT
+- ruleId: dm-20200922-RS-1
+  name: dm-20200922-RS-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - ICMPv6
+      - ICMPv4
+    ports: []
+    domains: []
+    objectId: dm-20200922-RS-1
+    name: dm-20200922-RS-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - ICMPv6
+      - ICMPv4
+    ports: []
+    domains: []
+    objectId: dm-20200922-RS-1
+    name: dm-20200922-RS-1
+- ruleId: dm-20201207-DW
+  name: dm-20201207-DW
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 6556
+    domains: []
+    objectId: dm-20201207-DW
+    name: dm-20201207-DW
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 6556
+    domains: []
+    objectId: dm-20201207-DW
+    name: dm-20201207-DW
+- ruleId: dm-20201207-DW-1
+  name: dm-20201207-DW-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 6556
+    domains: []
+    objectId: dm-20201207-DW-1
+    name: dm-20201207-DW-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 6556
+    domains: []
+    objectId: dm-20201207-DW-1
+    name: dm-20201207-DW-1
+- ruleId: dm-20210112-DW
+  name: dm-20210112-DW
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 5985
+    domains: []
+    objectId: dm-20210112-DW
+    name: dm-20210112-DW
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 5985
+    domains: []
+    objectId: dm-20210112-DW
+    name: dm-20210112-DW
+- ruleId: dm-20210112-DW-1
+  name: dm-20210112-DW-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 5985
+    domains: []
+    objectId: dm-20210112-DW-1
+    name: dm-20210112-DW-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 5985
+    domains: []
+    objectId: dm-20210112-DW-1
+    name: dm-20210112-DW-1
+- ruleId: dm-20181106-MK
+  name: dm-20181106-MK
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: dm-20181106-MK
+    name: dm-20181106-MK
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: dm-20181106-MK
+    name: dm-20181106-MK
+- ruleId: snmp-20170908-BT2
+  name: snmp-20170908-BT2
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: snmp-20170908-BT2
+    name: snmp-20170908-BT2
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: snmp-20170908-BT2
+    name: snmp-20170908-BT2
+- ruleId: ssh-22-20180830-BT1
+  name: ssh-22-20180830-BT1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 22
+    domains: []
+    objectId: ssh-22-20180830-BT1
+    name: ssh-22-20180830-BT1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 22
+    domains: []
+    objectId: ssh-22-20180830-BT1
+    name: ssh-22-20180830-BT1
+- ruleId: ServerToRODC-20160323-JL
+  name: ServerToRODC-20160323-JL
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 137
+      - 135
+      - 139
+      - 464
+      - 389
+      - 3268-3269
+      - 53
+      - 5722
+      - 445
+      - 49152-65535
+      - 636
+      - 49150-49159
+      - 123
+      - 88
+    domains: []
+    objectId: ServerToRODC-20160323-JL
+    name: ServerToRODC-20160323-JL
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 137
+      - 135
+      - 139
+      - 464
+      - 389
+      - 3268-3269
+      - 53
+      - 5722
+      - 445
+      - 49152-65535
+      - 636
+      - 49150-49159
+      - 123
+      - 88
+    domains: []
+    objectId: ServerToRODC-20160323-JL
+    name: ServerToRODC-20160323-JL
+- ruleId: dns-53-20221103-BT
+  name: dns-53-20221103-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 53
+    domains: []
+    objectId: dns-53-20221103-BT
+    name: dns-53-20221103-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 53
+    domains: []
+    objectId: dns-53-20221103-BT
+    name: dns-53-20221103-BT
+- ruleId: rodc-20180205-BT
+  name: rodc-20180205-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 49152-65535
+    domains: []
+    objectId: rodc-20180205-BT
+    name: rodc-20180205-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 49152-65535
+    domains: []
+    objectId: rodc-20180205-BT
+    name: rodc-20180205-BT
+- ruleId: rodc-20130205-TS-1
+  name: rodc-20130205-TS-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: rodc-20130205-TS-1
+    name: rodc-20130205-TS-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: rodc-20130205-TS-1
+    name: rodc-20130205-TS-1
+- ruleId: ServerToRWDC-20190507-MS
+  name: ServerToRWDC-20190507-MS
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 445
+      - 135-139
+      - 464
+      - 389
+      - 9389
+      - 636
+      - 3269
+      - 49152-57500
+      - 3268
+      - 53
+      - 5722
+      - 137
+      - 49152-65535
+      - 88
+      - 123
+    domains: []
+    objectId: ServerToRWDC-20190507-MS
+    name: ServerToRWDC-20190507-MS
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 445
+      - 135-139
+      - 464
+      - 389
+      - 9389
+      - 636
+      - 3269
+      - 49152-57500
+      - 3268
+      - 53
+      - 5722
+      - 137
+      - 49152-65535
+      - 88
+      - 123
+    domains: []
+    objectId: ServerToRWDC-20190507-MS
+    name: ServerToRWDC-20190507-MS
+- ruleId: icmp-20151110-BT1
+  name: icmp-20151110-BT1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20151110-BT1
+    name: icmp-20151110-BT1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20151110-BT1
+    name: icmp-20151110-BT1
+- ruleId: icmp-20150520-BT1
+  name: icmp-20150520-BT1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20150520-BT1
+    name: icmp-20150520-BT1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20150520-BT1
+    name: icmp-20150520-BT1
+- ruleId: icmp-20160111-BT2
+  name: icmp-20160111-BT2
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20160111-BT2
+    name: icmp-20160111-BT2
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20160111-BT2
+    name: icmp-20160111-BT2
+- ruleId: icmp-20160426-BT1-1
+  name: icmp-20160426-BT1-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20160426-BT1-1
+    name: icmp-20160426-BT1-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20160426-BT1-1
+    name: icmp-20160426-BT1-1
+- ruleId: icmp-20160225-BT1
+  name: icmp-20160225-BT1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20160225-BT1
+    name: icmp-20160225-BT1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20160225-BT1
+    name: icmp-20160225-BT1
+- ruleId: icmp-20150518-BT1-1
+  name: icmp-20150518-BT1-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20150518-BT1-1
+    name: icmp-20150518-BT1-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20150518-BT1-1
+    name: icmp-20150518-BT1-1
+- ruleId: icmp-20160608-BT1
+  name: icmp-20160608-BT1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20160608-BT1
+    name: icmp-20160608-BT1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20160608-BT1
+    name: icmp-20160608-BT1
+- ruleId: icmp-20170918-BT2
+  name: icmp-20170918-BT2
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20170918-BT2
+    name: icmp-20170918-BT2
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20170918-BT2
+    name: icmp-20170918-BT2
+- ruleId: icmp-20171221-BT
+  name: icmp-20171221-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20171221-BT
+    name: icmp-20171221-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20171221-BT
+    name: icmp-20171221-BT
+- ruleId: icmp-20150518-BT1
+  name: icmp-20150518-BT1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20150518-BT1
+    name: icmp-20150518-BT1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20150518-BT1
+    name: icmp-20150518-BT1
+- ruleId: icmp-20151127-BT
+  name: icmp-20151127-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20151127-BT
+    name: icmp-20151127-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20151127-BT
+    name: icmp-20151127-BT
+- ruleId: icmp-20160111-BT3
+  name: icmp-20160111-BT3
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20160111-BT3
+    name: icmp-20160111-BT3
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20160111-BT3
+    name: icmp-20160111-BT3
+- ruleId: icmp-20150511-BT1-1
+  name: icmp-20150511-BT1-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20150511-BT1-1
+    name: icmp-20150511-BT1-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20150511-BT1-1
+    name: icmp-20150511-BT1-1
+- ruleId: icmp-20160321-BT2
+  name: icmp-20160321-BT2
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20160321-BT2
+    name: icmp-20160321-BT2
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20160321-BT2
+    name: icmp-20160321-BT2
+- ruleId: icmp-20160608-BT3
+  name: icmp-20160608-BT3
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20160608-BT3
+    name: icmp-20160608-BT3
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20160608-BT3
+    name: icmp-20160608-BT3
+- ruleId: icmp-20170221-BT
+  name: icmp-20170221-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20170221-BT
+    name: icmp-20170221-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20170221-BT
+    name: icmp-20170221-BT
+- ruleId: icmp-20170919-BT
+  name: icmp-20170919-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20170919-BT
+    name: icmp-20170919-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20170919-BT
+    name: icmp-20170919-BT
+- ruleId: icmp-20150511-BT1
+  name: icmp-20150511-BT1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20150511-BT1
+    name: icmp-20150511-BT1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20150511-BT1
+    name: icmp-20150511-BT1
+- ruleId: icmp-20151110-BT2
+  name: icmp-20151110-BT2
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20151110-BT2
+    name: icmp-20151110-BT2
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20151110-BT2
+    name: icmp-20151110-BT2
+- ruleId: icmp-20180219-BT
+  name: icmp-20180219-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20180219-BT
+    name: icmp-20180219-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20180219-BT
+    name: icmp-20180219-BT
+- ruleId: icmp-20150511-BT2
+  name: icmp-20150511-BT2
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20150511-BT2
+    name: icmp-20150511-BT2
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20150511-BT2
+    name: icmp-20150511-BT2
+- ruleId: http-20220817-OA
+  name: http-20220817-OA
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 22
+    domains: []
+    objectId: http-20220817-OA
+    name: http-20220817-OA
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 22
+    domains: []
+    objectId: http-20220817-OA
+    name: http-20220817-OA
+- ruleId: icmp-20160111-BT1
+  name: icmp-20160111-BT1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20160111-BT1
+    name: icmp-20160111-BT1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20160111-BT1
+    name: icmp-20160111-BT1
+- ruleId: icmp-20160222-BT
+  name: icmp-20160222-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20160222-BT
+    name: icmp-20160222-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20160222-BT
+    name: icmp-20160222-BT
+- ruleId: icmp-20150511-BT3-1
+  name: icmp-20150511-BT3-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20150511-BT3-1
+    name: icmp-20150511-BT3-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20150511-BT3-1
+    name: icmp-20150511-BT3-1
+- ruleId: icmp-20170907-BT2
+  name: icmp-20170907-BT2
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20170907-BT2
+    name: icmp-20170907-BT2
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20170907-BT2
+    name: icmp-20170907-BT2
+- ruleId: icmp-20160608-BT4
+  name: icmp-20160608-BT4
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20160608-BT4
+    name: icmp-20160608-BT4
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20160608-BT4
+    name: icmp-20160608-BT4
+- ruleId: icmp-20150511-BT3
+  name: icmp-20150511-BT3
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20150511-BT3
+    name: icmp-20150511-BT3
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20150511-BT3
+    name: icmp-20150511-BT3
+- ruleId: pre-rule77
+  name: pre-rule77
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols:
+      - TCP
+      - ICMPv6
+      - ICMPv4
+    ports: []
+    domains: []
+    objectId: pre-rule77
+    name: pre-rule77
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols:
+      - TCP
+      - ICMPv6
+      - ICMPv4
+    ports: []
+    domains: []
+    objectId: pre-rule77
+    name: pre-rule77
+- ruleId: icmp-20150511-BT4
+  name: icmp-20150511-BT4
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20150511-BT4
+    name: icmp-20150511-BT4
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20150511-BT4
+    name: icmp-20150511-BT4
+- ruleId: ICMP-20160324-BT
+  name: ICMP-20160324-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ICMP-20160324-BT
+    name: ICMP-20160324-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ICMP-20160324-BT
+    name: ICMP-20160324-BT
+- ruleId: icmp-20180606-BT1
+  name: icmp-20180606-BT1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20180606-BT1
+    name: icmp-20180606-BT1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20180606-BT1
+    name: icmp-20180606-BT1
+- ruleId: tcp-53-20230322-CT
+  name: tcp-53-20230322-CT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 53
+    domains: []
+    objectId: tcp-53-20230322-CT
+    name: tcp-53-20230322-CT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 53
+    domains: []
+    objectId: tcp-53-20230322-CT
+    name: tcp-53-20230322-CT
+- ruleId: sftp-20230322-CT
+  name: sftp-20230322-CT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 8000-8999
+      - 700-705
+    domains: []
+    objectId: sftp-20230322-CT
+    name: sftp-20230322-CT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 8000-8999
+      - 700-705
+    domains: []
+    objectId: sftp-20230322-CT
+    name: sftp-20230322-CT
+- ruleId: icmp-20180219-BT2
+  name: icmp-20180219-BT2
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20180219-BT2
+    name: icmp-20180219-BT2
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20180219-BT2
+    name: icmp-20180219-BT2
+- ruleId: icmp-20180606-BT
+  name: icmp-20180606-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20180606-BT
+    name: icmp-20180606-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: icmp-20180606-BT
+    name: icmp-20180606-BT
+- ruleId: dm-20210121-DW
+  name: dm-20210121-DW
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 5017-5020
+      - 3268
+      - 137
+      - 135
+      - 389
+      - 445
+      - 49152-65535
+      - 636
+      - 3269
+      - 3389
+      - 49668
+    domains: []
+    objectId: dm-20210121-DW
+    name: dm-20210121-DW
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 5017-5020
+      - 3268
+      - 137
+      - 135
+      - 389
+      - 445
+      - 49152-65535
+      - 636
+      - 3269
+      - 3389
+      - 49668
+    domains: []
+    objectId: dm-20210121-DW
+    name: dm-20210121-DW
+- ruleId: ad-389-20210423-MSC
+  name: ad-389-20210423-MSC
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 389
+    domains: []
+    objectId: ad-389-20210423-MSC
+    name: ad-389-20210423-MSC
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 389
+    domains: []
+    objectId: ad-389-20210423-MSC
+    name: ad-389-20210423-MSC
+- ruleId: ipsec-500-20210423-MS-1
+  name: ipsec-500-20210423-MS-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 4500
+      - 500
+    domains: []
+    objectId: ipsec-500-20210423-MS-1
+    name: ipsec-500-20210423-MS-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 4500
+      - 500
+    domains: []
+    objectId: ipsec-500-20210423-MS-1
+    name: ipsec-500-20210423-MS-1
+- ruleId: ipsec-500-20210423-MS-2
+  name: ipsec-500-20210423-MS-2
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 4500
+      - 500
+    domains: []
+    objectId: ipsec-500-20210423-MS-2
+    name: ipsec-500-20210423-MS-2
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 4500
+      - 500
+    domains: []
+    objectId: ipsec-500-20210423-MS-2
+    name: ipsec-500-20210423-MS-2
+- ruleId: vzen-20210831-DW
+  name: vzen-20210831-DW
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 11223
+    domains: []
+    objectId: vzen-20210831-DW
+    name: vzen-20210831-DW
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 11223
+    domains: []
+    objectId: vzen-20210831-DW
+    name: vzen-20210831-DW
+- ruleId: jumphost-20210222-BT0
+  name: jumphost-20210222-BT0
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: jumphost-20210222-BT0
+    name: jumphost-20210222-BT0
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: jumphost-20210222-BT0
+    name: jumphost-20210222-BT0
+- ruleId: jumphost-20210525-KT
+  name: jumphost-20210525-KT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: jumphost-20210525-KT
+    name: jumphost-20210525-KT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: jumphost-20210525-KT
+    name: jumphost-20210525-KT
+- ruleId: jumphost-20210222-BT1
+  name: jumphost-20210222-BT1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: jumphost-20210222-BT1
+    name: jumphost-20210222-BT1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: jumphost-20210222-BT1
+    name: jumphost-20210222-BT1
+- ruleId: jumphost-20210325-MSC
+  name: jumphost-20210325-MSC
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: jumphost-20210325-MSC
+    name: jumphost-20210325-MSC
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: jumphost-20210325-MSC
+    name: jumphost-20210325-MSC
+- ruleId: jumphost-20210222-BT2-1
+  name: jumphost-20210222-BT2-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: jumphost-20210222-BT2-1
+    name: jumphost-20210222-BT2-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: jumphost-20210222-BT2-1
+    name: jumphost-20210222-BT2-1
+- ruleId: hana-srv-mgmt-suse-in
+  name: hana-srv-mgmt-suse-in
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 22
+    domains: []
+    objectId: hana-srv-mgmt-suse-in
+    name: hana-srv-mgmt-suse-in
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 22
+    domains: []
+    objectId: hana-srv-mgmt-suse-in
+    name: hana-srv-mgmt-suse-in
+- ruleId: ssl-443-2011105-BT1
+  name: ssl-443-2011105-BT1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-443-2011105-BT1
+    name: ssl-443-2011105-BT1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-443-2011105-BT1
+    name: ssl-443-2011105-BT1
+- ruleId: ssl-443-2011105-BT2
+  name: ssl-443-2011105-BT2
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-443-2011105-BT2
+    name: ssl-443-2011105-BT2
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-443-2011105-BT2
+    name: ssl-443-2011105-BT2
+- ruleId: ssl-443-2011105-BT3
+  name: ssl-443-2011105-BT3
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-443-2011105-BT3
+    name: ssl-443-2011105-BT3
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-443-2011105-BT3
+    name: ssl-443-2011105-BT3
+- ruleId: ssl-443-2011105-BT3-1
+  name: ssl-443-2011105-BT3-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-443-2011105-BT3-1
+    name: ssl-443-2011105-BT3-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-443-2011105-BT3-1
+    name: ssl-443-2011105-BT3-1
+- ruleId: ssl-443-20190508-BT
+  name: ssl-443-20190508-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-443-20190508-BT
+    name: ssl-443-20190508-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-443-20190508-BT
+    name: ssl-443-20190508-BT
+- ruleId: http-80-20190606-BT
+  name: http-80-20190606-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 80
+    domains: []
+    objectId: http-80-20190606-BT
+    name: http-80-20190606-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 80
+    domains: []
+    objectId: http-80-20190606-BT
+    name: http-80-20190606-BT
+- ruleId: ssl-20201130-DW
+  name: ssl-20201130-DW
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-20201130-DW
+    name: ssl-20201130-DW
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-20201130-DW
+    name: ssl-20201130-DW
+- ruleId: ssl-443-20190117-RG
+  name: ssl-443-20190117-RG
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 17988
+      - 17990
+    domains: []
+    objectId: ssl-443-20190117-RG
+    name: ssl-443-20190117-RG
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 17988
+      - 17990
+    domains: []
+    objectId: ssl-443-20190117-RG
+    name: ssl-443-20190117-RG
+- ruleId: tcp-9300-20221208-KT
+  name: tcp-9300-20221208-KT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 22
+      - 80
+      - 9300
+    domains: []
+    objectId: tcp-9300-20221208-KT
+    name: tcp-9300-20221208-KT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 22
+      - 80
+      - 9300
+    domains: []
+    objectId: tcp-9300-20221208-KT
+    name: tcp-9300-20221208-KT
+- ruleId: tcp-8530-20210419-KT-1
+  name: tcp-8530-20210419-KT-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 8530
+      - 8531
+    domains: []
+    objectId: tcp-8530-20210419-KT-1
+    name: tcp-8530-20210419-KT-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 8530
+      - 8531
+    domains: []
+    objectId: tcp-8530-20210419-KT-1
+    name: tcp-8530-20210419-KT-1
+- ruleId: tcp-8530-20211201-KT
+  name: tcp-8530-20211201-KT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 8530
+    domains: []
+    objectId: tcp-8530-20211201-KT
+    name: tcp-8530-20211201-KT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 8530
+    domains: []
+    objectId: tcp-8530-20211201-KT
+    name: tcp-8530-20211201-KT
+- ruleId: wsus-20220124-KT
+  name: wsus-20220124-KT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 8531
+      - 80
+      - 8530
+    domains: []
+    objectId: wsus-20220124-KT
+    name: wsus-20220124-KT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 8531
+      - 80
+      - 8530
+    domains: []
+    objectId: wsus-20220124-KT
+    name: wsus-20220124-KT
+- ruleId: wsus-2022019-OA
+  name: wsus-2022019-OA
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 80
+    domains: []
+    objectId: wsus-2022019-OA
+    name: wsus-2022019-OA
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 80
+    domains: []
+    objectId: wsus-2022019-OA
+    name: wsus-2022019-OA
+- ruleId: vmware-902-20191004-BT
+  name: vmware-902-20191004-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 902
+    domains: []
+    objectId: vmware-902-20191004-BT
+    name: vmware-902-20191004-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 902
+    domains: []
+    objectId: vmware-902-20191004-BT
+    name: vmware-902-20191004-BT
+- ruleId: ssh-20221208-KT
+  name: ssh-20221208-KT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssh-20221208-KT
+    name: ssh-20221208-KT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssh-20221208-KT
+    name: ssh-20221208-KT
+- ruleId: vmware-902-20190628-BT
+  name: vmware-902-20190628-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 902
+    domains: []
+    objectId: vmware-902-20190628-BT
+    name: vmware-902-20190628-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 902
+    domains: []
+    objectId: vmware-902-20190628-BT
+    name: vmware-902-20190628-BT
+- ruleId: ssl-443-20190604-BT
+  name: ssl-443-20190604-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-443-20190604-BT
+    name: ssl-443-20190604-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-443-20190604-BT
+    name: ssl-443-20190604-BT
+- ruleId: vmware-902-20190604-BT
+  name: vmware-902-20190604-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 902
+    domains: []
+    objectId: vmware-902-20190604-BT
+    name: vmware-902-20190604-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 902
+    domains: []
+    objectId: vmware-902-20190604-BT
+    name: vmware-902-20190604-BT
+- ruleId: ssl-80-20190813-BT
+  name: ssl-80-20190813-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 80
+    domains: []
+    objectId: ssl-80-20190813-BT
+    name: ssl-80-20190813-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 80
+    domains: []
+    objectId: ssl-80-20190813-BT
+    name: ssl-80-20190813-BT
+- ruleId: ssl-443-20200702-BT
+  name: ssl-443-20200702-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-443-20200702-BT
+    name: ssl-443-20200702-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: ssl-443-20200702-BT
+    name: ssl-443-20200702-BT
+- ruleId: vmware-20220923-KT
+  name: vmware-20220923-KT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 80
+    domains: []
+    objectId: vmware-20220923-KT
+    name: vmware-20220923-KT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 80
+    domains: []
+    objectId: vmware-20220923-KT
+    name: vmware-20220923-KT
+- ruleId: ssl-9080-20191004-BT
+  name: ssl-9080-20191004-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 9080
+    domains: []
+    objectId: ssl-9080-20191004-BT
+    name: ssl-9080-20191004-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 9080
+    domains: []
+    objectId: ssl-9080-20191004-BT
+    name: ssl-9080-20191004-BT
+- ruleId: vmware-902-20190604-WR
+  name: vmware-902-20190604-WR
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 9084
+      - 902
+    domains: []
+    objectId: vmware-902-20190604-WR
+    name: vmware-902-20190604-WR
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 9084
+      - 902
+    domains: []
+    objectId: vmware-902-20190604-WR
+    name: vmware-902-20190604-WR
+- ruleId: carbonite-20230424-JL-2
+  name: carbonite-20230424-JL-2
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 6325
+      - 6320
+      - 445
+    domains: []
+    objectId: carbonite-20230424-JL-2
+    name: carbonite-20230424-JL-2
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 6325
+      - 6320
+      - 445
+    domains: []
+    objectId: carbonite-20230424-JL-2
+    name: carbonite-20230424-JL-2
+- ruleId: carbonite-20230504-OA
+  name: carbonite-20230504-OA
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 6325
+      - 6320
+      - 6236
+    domains: []
+    objectId: carbonite-20230504-OA
+    name: carbonite-20230504-OA
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 6325
+      - 6320
+      - 6236
+    domains: []
+    objectId: carbonite-20230504-OA
+    name: carbonite-20230504-OA
+- ruleId: carbonite-20230504-OA-1
+  name: carbonite-20230504-OA-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 6325
+      - 6320
+      - 6236
+    domains: []
+    objectId: carbonite-20230504-OA-1
+    name: carbonite-20230504-OA-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 6325
+      - 6320
+      - 6236
+    domains: []
+    objectId: carbonite-20230504-OA-1
+    name: carbonite-20230504-OA-1
+- ruleId: carbonite-iperf-test-20230427-JG-1
+  name: carbonite-iperf-test-20230427-JG-1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: carbonite-iperf-test-20230427-JG-1
+    name: carbonite-iperf-test-20230427-JG-1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: carbonite-iperf-test-20230427-JG-1
+    name: carbonite-iperf-test-20230427-JG-1
+- ruleId: carbonite-iperf-test-20230427-JG
+  name: carbonite-iperf-test-20230427-JG
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: carbonite-iperf-test-20230427-JG
+    name: carbonite-iperf-test-20230427-JG
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: carbonite-iperf-test-20230427-JG
+    name: carbonite-iperf-test-20230427-JG
+- ruleId: core-router-tftp
+  name: core-router - tftp
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: core-router-tftp
+    name: core-router - tftp
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: core-router-tftp
+    name: core-router - tftp
+- ruleId: carbonite-20230425-OA
+  name: carbonite-20230425-OA
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: carbonite-20230425-OA
+    name: carbonite-20230425-OA
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: carbonite-20230425-OA
+    name: carbonite-20230425-OA
+- ruleId: carbonite-20230424-JL
+  name: carbonite-20230424-JL
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 1505-1506
+      - 1500-1501
+      - 22
+      - 1024-65535
+      - 5986
+      - 6320
+      - 135
+      - 445
+      - 5985
+      - 6325
+      - 6336
+      - 139
+    domains: []
+    objectId: carbonite-20230424-JL
+    name: carbonite-20230424-JL
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 1505-1506
+      - 1500-1501
+      - 22
+      - 1024-65535
+      - 5986
+      - 6320
+      - 135
+      - 445
+      - 5985
+      - 6325
+      - 6336
+      - 139
+    domains: []
+    objectId: carbonite-20230424-JL
+    name: carbonite-20230424-JL
+- ruleId: carbonite-https-20230504-OA
+  name: carbonite-https-20230504-OA
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: carbonite-https-20230504-OA
+    name: carbonite-https-20230504-OA
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: carbonite-https-20230504-OA
+    name: carbonite-https-20230504-OA
+- ruleId: tcp-1688-20200904-KT
+  name: tcp-1688-20200904-KT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 1688
+    domains: []
+    objectId: tcp-1688-20200904-KT
+    name: tcp-1688-20200904-KT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 1688
+    domains: []
+    objectId: tcp-1688-20200904-KT
+    name: tcp-1688-20200904-KT
+- ruleId: http-80-2011106-BT1
+  name: http-80-2011106-BT1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 80
+    domains: []
+    objectId: http-80-2011106-BT1
+    name: http-80-2011106-BT1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 80
+    domains: []
+    objectId: http-80-2011106-BT1
+    name: http-80-2011106-BT1
+- ruleId: http-80-2011106-BT2
+  name: http-80-2011106-BT2
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 80
+    domains: []
+    objectId: http-80-2011106-BT2
+    name: http-80-2011106-BT2
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 80
+    domains: []
+    objectId: http-80-2011106-BT2
+    name: http-80-2011106-BT2
+- ruleId: rdp-20200909-KT1
+  name: rdp-20200909-KT1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: rdp-20200909-KT1
+    name: rdp-20200909-KT1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: rdp-20200909-KT1
+    name: rdp-20200909-KT1
+- ruleId: rdp-20221115-MA
+  name: rdp-20221115-MA
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: rdp-20221115-MA
+    name: rdp-20221115-MA
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: rdp-20221115-MA
+    name: rdp-20221115-MA
+- ruleId: vpn-20201111-JL
+  name: vpn-20201111-JL
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 8080
+    domains: []
+    objectId: vpn-20201111-JL
+    name: vpn-20201111-JL
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 8080
+    domains: []
+    objectId: vpn-20201111-JL
+    name: vpn-20201111-JL
+- ruleId: mssql-20220201-JH
+  name: mssql-20220201-JH
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 36796
+      - 1433
+      - 1434
+    domains: []
+    objectId: mssql-20220201-JH
+    name: mssql-20220201-JH
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 36796
+      - 1433
+      - 1434
+    domains: []
+    objectId: mssql-20220201-JH
+    name: mssql-20220201-JH
+- ruleId: http-80-20190322-BT
+  name: http-80-20190322-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 80
+    domains: []
+    objectId: http-80-20190322-BT
+    name: http-80-20190322-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 80
+    domains: []
+    objectId: http-80-20190322-BT
+    name: http-80-20190322-BT
+- ruleId: http-5985-20200109-BT1
+  name: http-5985-20200109-BT1
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 5985
+    domains: []
+    objectId: http-5985-20200109-BT1
+    name: http-5985-20200109-BT1
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 5985
+    domains: []
+    objectId: http-5985-20200109-BT1
+    name: http-5985-20200109-BT1
+- ruleId: unknown-udp-40961-20200429-BT
+  name: unknown-udp-40961-20200429-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 30000-44774
+    domains: []
+    objectId: unknown-udp-40961-20200429-BT
+    name: unknown-udp-40961-20200429-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 30000-44774
+    domains: []
+    objectId: unknown-udp-40961-20200429-BT
+    name: unknown-udp-40961-20200429-BT
+- ruleId: msrpc-135-20201222-BT
+  name: msrpc-135-20201222-BT
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 135
+    domains: []
+    objectId: msrpc-135-20201222-BT
+    name: msrpc-135-20201222-BT
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - TCP
+    ports:
+      - 135
+    domains: []
+    objectId: msrpc-135-20201222-BT
+    name: msrpc-135-20201222-BT
+- ruleId: blank
+  name: blank
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 21
+    domains: []
+    objectId: blank
+    name: blank
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 21
+    domains: []
+    objectId: blank
+    name: blank
+- ruleId: default_rule_NDP
+  name: Default Rule NDP
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols:
+      - TCP
+      - ICMPv6
+    ports: []
+    domains: []
+    objectId: default_rule_NDP
+    name: Default Rule NDP
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols:
+      - TCP
+      - ICMPv6
+    ports: []
+    domains: []
+    objectId: default_rule_NDP
+    name: Default Rule NDP
+- ruleId: default_rule_DHCP
+  name: Default Rule DHCP
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 67
+      - 68
+    domains: []
+    objectId: default_rule_DHCP
+    name: Default Rule DHCP
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols:
+      - TCP
+      - UDP
+    ports:
+      - 67
+      - 68
+    domains: []
+    objectId: default_rule_DHCP
+    name: Default Rule DHCP
+- ruleId: default-layer3-rule
+  name: Default Layer3 Rule
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: default-layer3-rule
+    name: Default Layer3 Rule
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: default-layer3-rule
+    name: Default Layer3 Rule
+- ruleId: blank
+  name: blank
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 21
+    domains: []
+    objectId: blank
+    name: blank
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports:
+      - 21
+    domains: []
+    objectId: blank
+    name: blank
+- ruleId: 2147483676
+  name: 123
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: 2147483676
+    name: 123
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: 2147483676
+    name: 123
+- ruleId: 2147483675
+  name: New Rule
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: 2147483675
+    name: New Rule
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols:
+      - TCP
+    ports: []
+    domains: []
+    objectId: 2147483675
+    name: New Rule
