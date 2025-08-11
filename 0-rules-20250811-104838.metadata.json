@@ -1,0 +1,17 @@
+{
+  "Repository": {
+    "Id": "24222158-f4b4-458a-a1dc-947cbad6e84a",
+    "Name": "HyperShield Git",
+    "Url": "https://github.com/aghfarkhan/hypershield.git",
+    "Branch": "main",
+    "RuleType": "0",
+    "Environment": ""
+  },
+  "Publishing": {
+    "Timestamp": "2025-08-11T10:48:39.1509065Z",
+    "Format": "Yaml",
+    "Version": "1.0",
+    "ContentType": "List\u00601"
+  },
+  "Options": {}
+}
