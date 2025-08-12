@@ -1,0 +1,668 @@
+- ruleId: a843c024-dcd8-4c59-bf8c-94eb1ebc95a4
+  name: '"Case 5"'
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols:
+      - tcp
+    ports:
+      - ' 1540-1595'
+    action: Deny
+    domains: []
+    objectId: a843c024-dcd8-4c59-bf8c-94eb1ebc95a4
+    name: '"Case 5"'
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols:
+      - tcp
+    ports:
+      - ' 1540-1595'
+    action: Deny
+    domains: []
+    objectId: a843c024-dcd8-4c59-bf8c-94eb1ebc95a4
+    name: '"Case 5"'
+- ruleId: 7e539bcf-c9ae-46dc-b088-d10c7222d371
+  name: '"Case 8 - Rules with Service Group"'
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols:
+      - tcp
+    ports:
+      - ' 137-139'
+      - ' 25'
+    action: Deny
+    domains: []
+    objectId: 7e539bcf-c9ae-46dc-b088-d10c7222d371
+    name: '"Case 8 - Rules with Service Group"'
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols:
+      - tcp
+    ports:
+      - ' 137-139'
+      - ' 25'
+    action: Deny
+    domains: []
+    objectId: 7e539bcf-c9ae-46dc-b088-d10c7222d371
+    name: '"Case 8 - Rules with Service Group"'
+- ruleId: b8451a3e-f9be-45a9-9150-6d9fe2b63578
+  name: Any-Any-Reject1
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: b8451a3e-f9be-45a9-9150-6d9fe2b63578
+    name: Any-Any-Reject1
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: b8451a3e-f9be-45a9-9150-6d9fe2b63578
+    name: Any-Any-Reject1
+- ruleId: 522cf5e0-96dc-42e8-97d6-8261f5130676
+  name: '"Case 7 - Rules with Negate"'
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 522cf5e0-96dc-42e8-97d6-8261f5130676
+    name: '"Case 7 - Rules with Negate"'
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 522cf5e0-96dc-42e8-97d6-8261f5130676
+    name: '"Case 7 - Rules with Negate"'
+- ruleId: 728dcfd7-56bd-4a36-984c-fe3ed12b028b
+  name: OnlySmallSampleofApps
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 728dcfd7-56bd-4a36-984c-fe3ed12b028b
+    name: OnlySmallSampleofApps
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 728dcfd7-56bd-4a36-984c-fe3ed12b028b
+    name: OnlySmallSampleofApps
+- ruleId: 13d67eca-c917-4281-b710-2af0c27caa5d
+  name: Any-Any-Drop
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 13d67eca-c917-4281-b710-2af0c27caa5d
+    name: Any-Any-Drop
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 13d67eca-c917-4281-b710-2af0c27caa5d
+    name: Any-Any-Drop
+- ruleId: 59ff6e5f-8c9b-4c5e-b1e1-c27f91a729ba
+  name: '"Any2Any-URLs- service.flag rule w unsupported service"'
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 59ff6e5f-8c9b-4c5e-b1e1-c27f91a729ba
+    name: '"Any2Any-URLs- service.flag rule w unsupported service"'
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 59ff6e5f-8c9b-4c5e-b1e1-c27f91a729ba
+    name: '"Any2Any-URLs- service.flag rule w unsupported service"'
+- ruleId: d36d0dee-a748-4c0c-857a-3aaa57e21514
+  name: '"Case 9 - Rules with app groups"'
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: d36d0dee-a748-4c0c-857a-3aaa57e21514
+    name: '"Case 9 - Rules with app groups"'
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: d36d0dee-a748-4c0c-857a-3aaa57e21514
+    name: '"Case 9 - Rules with app groups"'
+- ruleId: 2bda81c7-dd32-4c0a-96cf-2e64d985b404
+  name: AnyToUSerDefinedIPs
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 2bda81c7-dd32-4c0a-96cf-2e64d985b404
+    name: AnyToUSerDefinedIPs
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 2bda81c7-dd32-4c0a-96cf-2e64d985b404
+    name: AnyToUSerDefinedIPs
+- ruleId: 015daa40-3872-45f2-b07b-fd1bf6ab892b
+  name: '"Case 3b - application object runs on multiple ports"'
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 015daa40-3872-45f2-b07b-fd1bf6ab892b
+    name: '"Case 3b - application object runs on multiple ports"'
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 015daa40-3872-45f2-b07b-fd1bf6ab892b
+    name: '"Case 3b - application object runs on multiple ports"'
+- ruleId: 432de9bd-9018-49f7-b89b-7200a70c35e2
+  name: '"Case 2 - FWDN"'
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - tcp
+    ports:
+      - ' 25'
+    action: Deny
+    domains: []
+    objectId: 432de9bd-9018-49f7-b89b-7200a70c35e2
+    name: '"Case 2 - FWDN"'
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - tcp
+    ports:
+      - ' 25'
+    action: Deny
+    domains: []
+    objectId: 432de9bd-9018-49f7-b89b-7200a70c35e2
+    name: '"Case 2 - FWDN"'
+- ruleId: 17235dc1-bcdc-450c-9592-b61677072d9d
+  name: '"Case 1 - User ID"'
+  workloadRule:
+    source: {}
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - udp
+      - tcp
+    ports:
+      - ' 137-139'
+      - ' 135-137'
+      - ' 55'
+    action: Deny
+    domains: []
+    objectId: 17235dc1-bcdc-450c-9592-b61677072d9d
+    name: '"Case 1 - User ID"'
+  edgeRule:
+    source: {}
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - udp
+      - tcp
+    ports:
+      - ' 137-139'
+      - ' 135-137'
+      - ' 55'
+    action: Deny
+    domains: []
+    objectId: 17235dc1-bcdc-450c-9592-b61677072d9d
+    name: '"Case 1 - User ID"'
+- ruleId: 92b8e987-13c9-439e-bfb0-faf70aefafd7
+  name: IP_Negate_toAny
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 92b8e987-13c9-439e-bfb0-faf70aefafd7
+    name: IP_Negate_toAny
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 92b8e987-13c9-439e-bfb0-faf70aefafd7
+    name: IP_Negate_toAny
+- ruleId: fb983051-a3c8-4dba-be14-dc407ed33c7a
+  name: '"Case 10 - Rules with customized app object"'
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: fb983051-a3c8-4dba-be14-dc407ed33c7a
+    name: '"Case 10 - Rules with customized app object"'
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: fb983051-a3c8-4dba-be14-dc407ed33c7a
+    name: '"Case 10 - Rules with customized app object"'
+- ruleId: 45b43fa6-b34d-4fba-b148-e549c84ddb91
+  name: Any-Any-Reject2
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 45b43fa6-b34d-4fba-b148-e549c84ddb91
+    name: Any-Any-Reject2
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 45b43fa6-b34d-4fba-b148-e549c84ddb91
+    name: Any-Any-Reject2
+- ruleId: 821ae0db-2273-43e7-9b32-c5960036ec30
+  name: Any-Any-Log-Deny
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 821ae0db-2273-43e7-9b32-c5960036ec30
+    name: Any-Any-Log-Deny
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 821ae0db-2273-43e7-9b32-c5960036ec30
+    name: Any-Any-Log-Deny
+- ruleId: 27a67e94-8718-4faa-ba06-fc43c1f4f66e
+  name: '"Case 4 - Rules with one or multiple group objects"'
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - tcp
+    ports:
+      - ' 6023'
+    action: Deny
+    domains: []
+    objectId: 27a67e94-8718-4faa-ba06-fc43c1f4f66e
+    name: '"Case 4 - Rules with one or multiple group objects"'
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - tcp
+    ports:
+      - ' 6023'
+    action: Deny
+    domains: []
+    objectId: 27a67e94-8718-4faa-ba06-fc43c1f4f66e
+    name: '"Case 4 - Rules with one or multiple group objects"'
+- ruleId: 3af55ea1-09a3-4ed0-853d-1c750599388c
+  name: PostRule1
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 3af55ea1-09a3-4ed0-853d-1c750599388c
+    name: PostRule1
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 3af55ea1-09a3-4ed0-853d-1c750599388c
+    name: PostRule1
+- ruleId: 8af7b058-0041-48e7-8969-46fb2fd374ff
+  name: '"Case 3a - Rules with application object"'
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - tcp
+    ports:
+      - ' 636'
+      - ' 3269'
+    action: Deny
+    domains: []
+    objectId: 8af7b058-0041-48e7-8969-46fb2fd374ff
+    name: '"Case 3a - Rules with application object"'
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols:
+      - tcp
+    ports:
+      - ' 636'
+      - ' 3269'
+    action: Deny
+    domains: []
+    objectId: 8af7b058-0041-48e7-8969-46fb2fd374ff
+    name: '"Case 3a - Rules with application object"'
+- ruleId: 4e70f632-b57c-4b32-a777-88021a3e7448
+  name: Rule2
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 4e70f632-b57c-4b32-a777-88021a3e7448
+    name: Rule2
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 4e70f632-b57c-4b32-a777-88021a3e7448
+    name: Rule2
+- ruleId: 99ed8c30-1b8a-4c0f-93c5-84c4962b23e6
+  name: Any-Any-Reject3
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 99ed8c30-1b8a-4c0f-93c5-84c4962b23e6
+    name: Any-Any-Reject3
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 99ed8c30-1b8a-4c0f-93c5-84c4962b23e6
+    name: Any-Any-Reject3
+- ruleId: 44cc29a6-af8e-432f-9003-c9e9bb2ed62e
+  name: AnyToAny-ServiceAndServiceGroup-Deny
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols:
+      - tcp
+    ports:
+      - ' 55'
+    action: Deny
+    domains: []
+    objectId: 44cc29a6-af8e-432f-9003-c9e9bb2ed62e
+    name: AnyToAny-ServiceAndServiceGroup-Deny
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols:
+      - tcp
+    ports:
+      - ' 55'
+    action: Deny
+    domains: []
+    objectId: 44cc29a6-af8e-432f-9003-c9e9bb2ed62e
+    name: AnyToAny-ServiceAndServiceGroup-Deny
+- ruleId: d768bb10-9cff-409a-9726-ba1f456b0cee
+  name: SrcCountry-Dest-OnboxIPs-RdmSrv
+  workloadRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: d768bb10-9cff-409a-9726-ba1f456b0cee
+    name: SrcCountry-Dest-OnboxIPs-RdmSrv
+  edgeRule:
+    source:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    destination:
+      ip: []
+      tags: []
+      oS: []
+      cidr: []
+      processes: []
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: d768bb10-9cff-409a-9726-ba1f456b0cee
+    name: SrcCountry-Dest-OnboxIPs-RdmSrv
+- ruleId: 9fa4bb60-dd33-47b1-a8ea-267df4cef91e
+  name: '"Case 6 - Rules with URL Category"'
+  workloadRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 9fa4bb60-dd33-47b1-a8ea-267df4cef91e
+    name: '"Case 6 - Rules with URL Category"'
+  edgeRule:
+    source: {}
+    destination: {}
+    protocols: []
+    ports: []
+    action: Deny
+    domains: []
+    objectId: 9fa4bb60-dd33-47b1-a8ea-267df4cef91e
+    name: '"Case 6 - Rules with URL Category"'
