@@ -1,0 +1,16 @@
+apiVersion: cilium.io/v2
+kind: CiliumCIDRGroup
+metadata:
+  name: vm-ipp-cidr-vmip-uid-1
+  labels:
+    fabrix.io/managed: true
+    fabrix.io/source-system: nsx
+    fabrix.io/original-group-name: vm-ipp
+    fabrix.io/datasource-id: 044b1ddf-ce50-4a2c-badc-eaff6750f2db
+  annotations:
+    fabrix.io/last-synced: 2026-03-03T22:18:31.6853726Z
+    fabrix.io/nsx-group-path: /infra/domains/default/groups/VMIP_uid_1
+spec:
+  externalCidrs:
+  - 10.100.201.10/32
+  - 10.45.2.200/32
