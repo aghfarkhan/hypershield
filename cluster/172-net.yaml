@@ -1,0 +1,17 @@
+apiVersion: fabrix.io/v1alpha1
+kind: FabrixSystemSecurityGroup
+metadata:
+  name: 172-net
+  labels:
+    fabrix.io/managed: true
+    fabrix.io/datasource-id: 044b1ddf-ce50-4a2c-badc-eaff6750f2db
+spec:
+  displayName: 172-net
+  matchLabels:
+    tag1: scope1
+  endpointIPs:
+  - 172.16.100.0/24
+  origin:
+    system: NSX
+    originatedId: 172_net
+  type: Mixed
