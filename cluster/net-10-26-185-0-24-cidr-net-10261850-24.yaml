@@ -1,0 +1,15 @@
+apiVersion: cilium.io/v2
+kind: CiliumCIDRGroup
+metadata:
+  name: net-10-26-185-0-24-cidr-net-10261850-24
+  labels:
+    fabrix.io/managed: true
+    fabrix.io/source-system: nsx
+    fabrix.io/original-group-name: net-10-26-185-0-24
+    fabrix.io/datasource-id: 044b1ddf-ce50-4a2c-badc-eaff6750f2db
+  annotations:
+    fabrix.io/last-synced: 2026-03-03T22:09:52.4469214Z
+    fabrix.io/nsx-group-path: /infra/domains/default/groups/Net_10261850_24
+spec:
+  externalCidrs:
+  - 10.26.185.0/24
