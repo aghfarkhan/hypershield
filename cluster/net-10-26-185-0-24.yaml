@@ -1,0 +1,15 @@
+apiVersion: fabrix.io/v1alpha1
+kind: FabrixSystemSecurityGroup
+metadata:
+  name: net-10-26-185-0-24
+  labels:
+    fabrix.io/managed: true
+    fabrix.io/datasource-id: 044b1ddf-ce50-4a2c-badc-eaff6750f2db
+spec:
+  displayName: net-10-26-185-0-24
+  endpointIPs:
+  - 10.26.185.0/24
+  origin:
+    system: NSX
+    originatedId: Net_10261850_24
+  type: IP
