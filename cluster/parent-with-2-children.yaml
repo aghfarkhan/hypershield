@@ -1,0 +1,16 @@
+apiVersion: fabrix.io/v1alpha1
+kind: FabrixSystemSecurityGroup
+metadata:
+  name: parent-with-2-children
+  labels:
+    fabrix.io/managed: true
+    fabrix.io/datasource-id: 044b1ddf-ce50-4a2c-badc-eaff6750f2db
+spec:
+  displayName: parent-with-2-children
+  endpointIPs:
+  - 1.1.1.0/24
+  - 2.2.2.0/24
+  origin:
+    system: NSX
+    originatedId: Parent_with_2_children_
+  type: IP
