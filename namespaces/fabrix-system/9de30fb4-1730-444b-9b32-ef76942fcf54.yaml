@@ -1,0 +1,32 @@
+apiVersion: cilium.io/v2
+kind: CiliumClusterwideNetworkPolicy
+metadata:
+  name: sample-rules-for-asa-these-are-vms
+  namespace: fabrix-system
+  labels:
+    fabrix.io/managed: true
+    fabrix.io/datasource-id: 044b1ddf-ce50-4a2c-badc-eaff6750f2db
+spec:
+  endpointSelector: {}
+  egress:
+  - toEndpoints:
+    - matchLabels:
+        scope-101: tag-1011
+        scope1: tag1
+    toPorts:
+    - ports:
+      - portValue: 443
+        protocol: TCP
+      - portValue: 22
+        protocol: TCP
+    toCIDRSet:
+    - cidrGroupRef: manyvms-cidr-manyvms
+    - cidrGroupRef: 172-net-cidr-172-net
+  egressDeny: []
+  ingress:
+  - fromEndpoints:
+    - matchLabels:
+        scope1: tag1
+    fromCIDRSet:
+    - cidrGroupRef: 172-net-cidr-172-net
+  ingressDeny: []
