@@ -1,0 +1,16 @@
+apiVersion: fabrix.io/v1alpha1
+kind: FabrixSystemSecurityGroup
+metadata:
+  name: local-nets
+  labels:
+    fabrix.io/managed: true
+    fabrix.io/datasource-id: 044b1ddf-ce50-4a2c-badc-eaff6750f2db
+spec:
+  displayName: local-nets
+  endpointIPs:
+  - 192.168.0.0/16
+  - 10.0.0.0/8
+  origin:
+    system: NSX
+    originatedId: LOCAL-NETS
+  type: IP
