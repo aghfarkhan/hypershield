@@ -1,0 +1,25 @@
+apiVersion: cilium.io/v2
+kind: CiliumClusterwideNetworkPolicy
+metadata:
+  name: sample-rules-for-asa-any-vm-to-sg-with-external-subnets
+  namespace: fabrix-system
+  labels:
+    fabrix.io/managed: true
+    fabrix.io/datasource-id: 044b1ddf-ce50-4a2c-badc-eaff6750f2db
+spec:
+  endpointSelector: {}
+  egress:
+  - toEndpoints:
+    - matchLabels:
+        nsx-group: net-10-26-185-0-24
+    toCIDRSet:
+    - cidrGroupRef: net-10-26-185-0-24-cidr-net-10261850-24
+  egressDeny: []
+  ingress:
+  - fromEndpoints:
+    - matchLabels:
+        nsx-group: net-10-26-185-0-24
+    fromCIDRSet:
+    - cidrGroupRef: net-10-26-185-0-24-cidr-net-10261850-24
+    - cidrGroupRef: natwest-sg-582-cidr-natwest-sg-582
+  ingressDeny: []
