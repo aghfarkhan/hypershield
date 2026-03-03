@@ -1,0 +1,19 @@
+apiVersion: cilium.io/v2
+kind: CiliumClusterwideNetworkPolicy
+metadata:
+  name: sample-rules-for-asa-to-physical-env-manoj
+  namespace: fabrix-system
+  labels:
+    fabrix.io/managed: true
+    fabrix.io/datasource-id: 044b1ddf-ce50-4a2c-badc-eaff6750f2db
+spec:
+  endpointSelector: {}
+  egress:
+  - toPorts:
+    - ports:
+      - portValue: 179
+        protocol: TCP
+  egressDeny: []
+  ingress:
+  - {}
+  ingressDeny: []
