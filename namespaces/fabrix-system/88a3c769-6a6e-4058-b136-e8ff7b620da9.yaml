@@ -1,0 +1,81 @@
+apiVersion: cilium.io/v2
+kind: CiliumClusterwideNetworkPolicy
+metadata:
+  name: fabrix-test-alg-services
+  namespace: fabrix-system
+  labels:
+    fabrix.io/managed: true
+    fabrix.io/datasource-id: 044b1ddf-ce50-4a2c-badc-eaff6750f2db
+spec:
+  endpointSelector: {}
+  egress:
+  - toPorts:
+    - ports:
+      - portValue: 42
+        protocol: TCP
+      - portValue: 8000
+        protocol: TCP
+      - portValue: 6500
+        protocol: UDP
+      - portValue: 443
+        protocol: TCP
+      - portValue: 25
+        protocol: TCP
+      - portValue: 445
+        protocol: TCP
+      - portValue: 5725
+        protocol: TCP
+      - portValue: 137
+        protocol: UDP
+      - portValue: 3389
+        protocol: TCP
+      - portValue: 1434
+        protocol: UDP
+      - portValue: 53
+        protocol: TCP
+      - portValue: 88
+        protocol: UDP
+      - portValue: 53
+        protocol: UDP
+      - portValue: 636
+        protocol: UDP
+      - portValue: 80
+        protocol: TCP
+      - portValue: 1433
+        protocol: TCP
+      - portValue: 389
+        protocol: UDP
+      - portValue: 464
+        protocol: UDP
+      - portValue: 32843
+        protocol: TCP
+      - portValue: 32844
+        protocol: TCP
+      - portValue: 32845
+        protocol: TCP
+      - portValue: 56737
+        protocol: TCP
+      - portValue: 56738
+        protocol: TCP
+      - portValue: 445
+        protocol: UDP
+      - portValue: 137
+        protocol: TCP
+      - portValue: 138
+        protocol: TCP
+      - portValue: 139
+        protocol: TCP
+      - portValue: 138
+        protocol: UDP
+      - portValue: 31031
+        protocol: TCP
+      - portValue: 44046
+        protocol: TCP
+      - portValue: 42
+        protocol: UDP
+      - portValue: 8043
+        protocol: TCP
+  egressDeny: []
+  ingress:
+  - {}
+  ingressDeny: []
