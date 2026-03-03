@@ -1,0 +1,16 @@
+apiVersion: cilium.io/v2
+kind: CiliumCIDRGroup
+metadata:
+  name: manyvms-cidr-manyvms
+  labels:
+    fabrix.io/managed: true
+    fabrix.io/source-system: nsx
+    fabrix.io/original-group-name: manyvms
+    fabrix.io/datasource-id: 044b1ddf-ce50-4a2c-badc-eaff6750f2db
+  annotations:
+    fabrix.io/last-synced: 2026-03-03T22:16:14.5573571Z
+    fabrix.io/nsx-group-path: /infra/domains/default/groups/ManyVMs
+spec:
+  externalCidrs:
+  - 10.100.200.10/32
+  - 192.188.1.4/32
